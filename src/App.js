@@ -2,9 +2,15 @@
 // import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar';
+import TextForm from './Components/TextForm';
 function App() {
   return (
-<Navbar title="TextUtilsByProps" home="HomeByProps" about="AboutByProps" disabled="DisabledByProps"/>
+    <>
+<Navbar title="TextUtils" home="Home" about="About" disabled="Disabled  "/>
+    
+    <div className="container my-5">
+<TextForm heading="Enter text to analize Below" />
+      </div></>
   );
 }
 
